@@ -28,5 +28,5 @@ In the pursuit of knowledge, data is a collection of discrete values that convey
 
 In this era, we no longer lack data， but we can use a lot of data. Data is commonly used in scientific research, economics, and in virtually every other form of human organizational activity. 
 
-<img src="./Images/All_fields_of_science.png" style="height: 90%; width: 90%;"/>
+<img src="./Images/All_fields_of_science.jpg" style="height: 90%; width: 90%;"/>
 
