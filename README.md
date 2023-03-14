@@ -9,9 +9,10 @@ Github page Authors: Ting Cao & [Ziyu Zhang](https://github.com/Ilxxll)
   - [1.2 History and Method of Materials Big Data and Materials Discovery](#part1_2)
   - [1.3 Using HPC and Cloud for MSE research](#part1_3)
 - [part 2 Introduction to Unix-Based Computer Systems and Hyak](#part2)
-  - [2.1](#part2_1)
-  - [2.2](#part2_2)
-  - [2.3](#part2_3)
+  - [2.1 Graphical User Interfaces (GUIs) and Command-Line Interfaces (CLIs)](#part2_1)
+  - [2.2 Why we need to learn Command Line?](#part2_2)
+  - [2.3 Use command lines](#part2_3)
+  - [2.4 Start using Hyak](#part2_4)
   
   
   
@@ -92,11 +93,44 @@ Graphical User Interfaces (GUIs) and Command-Line Interfaces (CLIs) are two ways
 
 GUIs are often considered more user-friendly and easier to learn than CLIs. GUIs allow users to interact with the system through a visual interface, typically with buttons, menus, and icons. This makes it easy for users to perform tasks without having to remember complex commands or syntax. GUIs can also provide real-time feedback to the user, making it easier to understand what is happening as a task is being performed.
 
-<img src="./Images/e_bank.jpeg" style="height: 80%; width: 80%;"/>
+<img src="./Images/gui.jpeg" style="height: 80%; width: 80%;"/>
 
 On the other hand, CLIs are often preferred by experienced users and developers who need more control over the system. CLIs allow users to interact with the system through a command prompt, typically with typed commands and parameters. This makes it easier to perform complex tasks and automate repetitive tasks using scripts. CLIs can also be faster and more efficient than GUIs, especially for tasks that require a lot of typing or navigating through multiple menus.
 
-<img src="./Images/e_bank.jpeg" style="height: 80%; width: 80%;"/>
+<img src="./Images/CLI.png" style="height: 80%; width: 80%;"/>
 
 Overall, the choice between GUIs and CLIs depends on the user's level of experience and the specific task at hand. GUIs are generally more user-friendly and accessible, while CLIs offer more control and flexibility for power users and developers. Some tasks may be better suited to a GUI, while others may be more efficiently performed using a CLI. In some cases, a combination of both GUI and CLI interfaces may be the most effective solution, allowing users to choose the best tool for each specific task.
+
+### 2.2 Why we need to learn Command Line? <a name="part2_2"></a>
+
+Command Line Interfaces (CLIs) are preferred in many scientific and technical fields, including Materials Science and Engineering, due to their efficiency, flexibility, and support for advanced features like scripts and command history.
+
+One major advantage of CLIs is their efficiency, as they allow users to quickly perform tasks without having to navigate through multiple menus or graphical interfaces.    CLIs also support fast connections, making them ideal for working with large datasets or running simulations that require real-time feedback.
+
+Another advantage of CLIs is their ability to record a history of commands, which allows users to easily recall and reuse previous commands.    This is particularly useful when performing repetitive tasks or when working with complex data sets, as it allows users to save time and reduce errors.
+
+In addition, CLIs support multiple users simultaneously, which makes them ideal for collaborative research environments.    Multiple users can work on the same project at the same time, without having to worry about conflicts or version control issues.
+
+Finally, most simulation tools for materials modeling do not have a graphical user interface.    In these cases, CLIs are often the only way to interact with the software and perform simulations.    This requires a certain level of technical expertise, but also provides researchers with the flexibility and control they need to perform complex simulations and analyze data.
+
+### 2.3 Use command lines <a name="part2_3"></a>
+
+To use Command Line Interfaces (CLIs), there are several options available depending on the operating system you are using:
+
+* For Mac OS users, there is native support for the `Terminal` application, which provides access to the command line. Terminal can be found in the Utilities folder within the Applications folder.
+
+* Linux users also have native support for the command line. Depending on your distribution, you can access the command line through a terminal application or by pressing `Ctrl+Alt+F1` to switch to a virtual console.
+
+* For Windows users running Windows 10 and above, Microsoft offers a Windows Subsystem for Linux (WSL), which provides a Linux-like command line environment within Windows. To install WSL, go to `Settings > Update & Security > For Developers`, and select `Developer mode` and then enable WSL in the Windows Features dialog.
+
+* For all users, you can connect to remote computing resources like the Hyak supercomputer to access powerful computing resources and perform complex simulations and data analysis. To connect to Hyak, you will typically use a `Secure Shell (SSH)` client to establish a secure connection to the system's command line interface. In command line mode, type `ssh USERID@klone.hyak.uw.edu` or `ssh USERID@mox.hyak.uw.edu` to connect to Hyak.(your UW user id should replace USERID.)  Many SSH clients are available, including the Terminal application on Mac OS and Linux, as well as third-party clients like `Xshell` and `PuTTY` on Windows. 
+
+Like with any new skill, using command line interfaces (CLIs) takes practice and persistence to become proficient. It can be daunting to start using the command line, but with practice and patience, you can become more comfortable and confident with this powerful tool.
+
+One way to get started is to set aside some time to explore the command line interface and try out different commands and options. You can start with basic commands like listing files, creating directories, and moving between directories, and gradually work your way up to more complex tasks like running simulations and analyzing data.
+
+Another helpful approach is to find online resources and tutorials to guide you in using the command line. There are many free resources available, including online courses, video tutorials, and written guides, that can help you learn the basics and develop more advanced skills.
+
+### 2.4 Start using Hyak <a name="part2_4"></a>
+
 
