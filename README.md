@@ -1,7 +1,7 @@
 # MSE 544 Week 1
 ## Lecture 1: Introduction to Big Data For Materials Science
 
-Github page Authors: Ting Cao & [Ziyu Zhang](https://github.com/Ilxxll)
+Github page Authors: Prof. Ting Cao & [Ziyu Zhang](https://github.com/Ilxxll)
 
 ## Table of Content
 - [Part 1 Introduction to Big Data for Materials: History, Method, and Motivation](#part1)
@@ -21,7 +21,7 @@ Github page Authors: Ting Cao & [Ziyu Zhang](https://github.com/Ilxxll)
   
 ### 1.1 What is Data? <a name="part1_1"></a>
   
-In the pursuit of knowledge, data is a collection of discrete values that convey information, describing quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted. Data may represent abstract ideas or concrete measurements.  Data is commonly used in scientific research, economics, and in virtually every other form of human organizational activity.[^1]
+In the pursuit of knowledge, data is a collection of discrete values that convey information, describing quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted. Data may represent abstract ideas or concrete measurements.  Data is commonly used in scientific research, economics, and in virtually every other form of human organizational activity.
 
 In this era, we no longer lack data， but we can use a lot of data. Data is commonly used in scientific research, economics, and in virtually every other form of human organizational activity. 
 
